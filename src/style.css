@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.poppins-300 {
+  font-family: 'poppins';
+  font-weight: 300 !important;
+}
+
+.poppins-500 {
+  font-family: 'poppins';
+  font-weight: 500 !important;
+}
+.poppins-600 {
+  font-family: 'poppins';
+  font-weight: 600 !important;
+}
+
+.lato {
+  font-family: 'lato';
+  font-weight: 400 !important;
+}
+
+.landing-page {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url('./assets/landing-page.jpg');
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+.landing-page-content {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icons {
+  color: #999999;
+  font-size: 60px;
+}
